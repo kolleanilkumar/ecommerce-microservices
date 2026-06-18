@@ -22,9 +22,9 @@ A Spring Boot Microservices-based E-Commerce application built using Spring Clou
         |                 |                  |
  Product Service    Order Service    Notification Service
       :8081              :8082              :8083
-        |                 |
-        |                 |
-      MySQL            MySQL
+        |                 |                  |                  
+        |                 |                  |
+      MySQL            MySQL               MySQL
 
                     Config Server
                         :8888
